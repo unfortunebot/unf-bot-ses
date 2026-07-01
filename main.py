@@ -9,7 +9,7 @@ load_dotenv()
 
 TOKEN = os.getenv("TOKEN")
 # Botun girmesini istediğiniz ses kanalının ID'sini buraya yazın
-VOICE_CHANNEL_ID = 1519341566282698903  # <--- Burayı kendi kanal ID'niz ile değiştirin
+VOICE_CHANNEL_ID = 1521927069796401242  # <--- Burayı kendi kanal ID'niz ile değiştirin
 
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="!", intents=intents)
